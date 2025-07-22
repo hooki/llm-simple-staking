@@ -199,3 +199,7 @@ contract DepositManager {
 2. Iterate through candidates: `IDAOCommittee.candidates(index)` for each index
 3. Get candidate details: `IDAOCommittee.candidateInfos(candidateAddress)`
 4. Get candidate name: `ICandidate.memo()` on the candidate contract
+
+### Important Implementation Notes
+
+**TON.approveAndCall() Data Encoding**: When calling `TON.approveAndCall()`, the data parameter must encode the DepositManager and Candidate addresses together using `abi.encode(depositManager, candidateContract)`. This is NOT a function call to DepositManager, but simply the two addresses encoded together. The WTON contract will handle the actual function call internally.
