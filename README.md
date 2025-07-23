@@ -1,6 +1,6 @@
 THIS IS MY PROMPT ! :)
 
-<video src="showcase.mp4" controls autoplay loop width="600"></video>
+![showcase](./showcase.gif)
 
 @/llm  Build My Simple Staking App
 
