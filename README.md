@@ -1,5 +1,7 @@
 THIS IS MY PROMPT ! :)
 
+![showcase.mp4](showcase.mp4)
+
 @/llm  Build My Simple Staking App
 
 - Connect and disconnect wallet
