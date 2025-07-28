@@ -1,7 +1,15 @@
-THIS IS MY PROMPT ! :)
-
 ![showcase](./showcase.gif)
 
+### Tested Model
+
+- Claude Sonnet 4
+
+### Requirements
+This application is a simple staking DApp designed to run on the Sepolia testnet.
+
+### Prompt
+
+```
 @/llm  Build My Simple Staking App
 
 - Connect and disconnect wallet
@@ -12,3 +20,4 @@ THIS IS MY PROMPT ! :)
 - `Withdraw` button to withdraw tokens
 - Use RPC: `https://sepolia.infura.io/v3/f479af4cc4d84ec38c5f06d747a04798`
 Please make this application !
+```
